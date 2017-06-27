@@ -34,7 +34,7 @@ body {
 
 img {
     width: 40%;
-    height: 60%;
+    height: 500%;
     border-radius: 90%;
     margin-bottom: 2em;
     
@@ -78,10 +78,16 @@ span {
     font-weight: bold;
 }
 
+#con {
+    font-family: 'Lobster', cursive;
+}
+
 a {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 a:hover {
     color: #000;
+    text-decoration: none;
+    transition-duration: .5;
 }
