@@ -15,26 +15,31 @@
     
     <script src="https://use.fontawesome.com/b169a7c7b4.js"></script>
     
-    <link rel="stylesheet" href="style.css">
     
     <link href="https://fonts.googleapis.com/css?family=Cabin|Cabin+Sketch|Lobster" rel="stylesheet">
     
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="animate.css">
+    
+    <link rel="stylesheet" href="style.css">
     
 </head>
     
 <body>
     <div id="wrapper" class="text-center container-fluid">
         <div id="blurb">
-            <h1 class=".bounceInLeft">Hello World!</h1>
-            <h3 class=".bounceInRight">I'm Allysa.</h3>
+            <div id="hello" class="animated bounceInLeft">
+                <h1>Hello World!</h1>
+            </div>
+            <div class="animated bounceInRight">
+                <h3>I'm Allysa.</h3>
+            </div>
             <img src="me.jpg">
             <p>
-                The big goal right now is to become a designer/developer. I'm interested in front end and back end development. I'm also a lover of dogs, television, and pizza in all it's various forms.
+                The big goal right now is to become a developer. I'm interested in front end and back end development. I'm also a lover of dogs, television, and pizza in all it's various forms.
             </p>
         </div>
         <div id="skills" class="container-fluid">
-            <h3>"I can tell you I don't have money. But what I do have are a very particular set of skills,"</h3>
+            <h3 id="quote">"I can tell you I don't have money. But what I do have are a very particular set of skills,"</h3>
             <div id="list">
             <ul>
                 <li><span>HTML</span></li>
@@ -99,15 +104,20 @@
                 Working on stars and new skills <span>all.the.time.</span>
             </h3>
         </div>
+        
+        <div id="work">
+            <h2>See what I'm working on now!</h2>
+            <a href="https://github.com/alldanfin"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+        </div>
         <div id="contact">
             <h2>Get in touch with me:</h2>
-            <a href= "mailto:allysafletcher@gmail.com" target="_blank"><i class="fa fa-envelope"></i> Email</a>&emsp;
+            <a id="mail" href= "mailto:allysafletcher@gmail.com" target="_blank"><i class="fa fa-envelope"></i> Email</a>&emsp;
     
-            <a href="https://twitter.com/alldanmos" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>&emsp;
+            <a id="twitter"href="https://twitter.com/alldanmos" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>&emsp;
             
-            <a href= "https://www.facebook.com/allysa.fletcher" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>&emsp;
+            <a id="fbook" href= "https://www.facebook.com/allysa.fletcher" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>&emsp;
     
-            <a href="https://www.linkedin.com/in/allysa-fletcher-7ab789123" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>  LinkedIn</a>&emsp;
+            <a id="linked" href="https://www.linkedin.com/in/allysa-fletcher-7ab789123" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>  LinkedIn</a>&emsp;
         </div>
     </div>
     
