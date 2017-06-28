@@ -32,7 +32,7 @@ body {
     margin-top: 0;
 }
 
-img {
+#me {
     width: 30%;
     height: 40%;
     border-radius: 90%;
@@ -94,6 +94,23 @@ a:hover {
 #work a {
     font-size: 1.9em;
 }
+
+#event img, #tour img {
+    width: 300px;
+    height: auto;
+}
+
+#event a, #tour a {
+    font-size: 1em;
+}
+
+#event, #tour {
+    padding-top: 2em;
+    display:inline-block;
+}
+
+
+
 
 @media (max-width: 650px) {
     #stars {
