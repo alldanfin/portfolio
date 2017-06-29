@@ -121,4 +121,12 @@ a:hover {
     #list {
         font-size: 1.5em;
     }
+    
+    #event, #tour {
+        align-self: center;
+    }
+    
+    body {
+        background-attachment: fixed;
+    }
 }
