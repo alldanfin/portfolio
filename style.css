@@ -107,6 +107,7 @@ a:hover {
 #event, #tour {
     padding-top: 2em;
     display:inline-block;
+    padding: 1.5em;
 }
 
 
