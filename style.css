@@ -103,16 +103,16 @@ a:visited:hover {
     font-size: 1.9em;
 }
 
-#event img, #tour img {
+#event img, #tour img, #menu img {
     width: 18.75em;
     height: auto;
 }
 
-#event a, #tour a {
+#event a, #tour a, #menu a {
     font-size: 1em;
 }
 
-#event, #tour {
+#event, #tour, #menu {
     padding-top: 2em;
     display:inline-block;
     padding: 1.5em;
@@ -130,8 +130,8 @@ a:visited:hover {
         font-size: 1.5em;
     }
     
-    #event, #tour {
-        align-self: center;
+    #event, #tour, #menu {
+        display: block;
     }
     
     body {
