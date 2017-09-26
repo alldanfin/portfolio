@@ -103,9 +103,14 @@ a:visited:hover {
     font-size: 1.9em;
 }
 
+.sitelinks {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .sites img {
-    width: 18.75em;
-    height: auto;
+    width: 325px;
+    height: 240px;
 }
 
 .sites a {
