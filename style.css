@@ -128,9 +128,48 @@ a:visited:hover {
 }
 
 
+@media (max-width:1100px) {
+    
+    .sites {
+        display: block;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    
+    .sites img {
+        grid-template-columns: 100%;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:900px) {
+    
+    .sitelinks {
+        grid-template-columns: 100%;
+    }
+    
+    .sites {
+        display: block;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    
+    .sites img {
+        grid-template-columns: 100%;
+        width: 80%;
+        text-align: center;
+    }
+}
 
 
 @media (max-width: 650px) {
+    
+    #wrapper {
+        width: 100%;
+    }
+    
     #stars {
         display: none;
     }
@@ -142,10 +181,53 @@ a:visited:hover {
     .sites {
         display: block;
         grid-template-columns: 100%;
+        text-align: center;
     }
     
     .sites img {
         grid-template-columns: 100%;
+        width: 80%;
+        text-align: center;
+    }
+    
+    body {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    #blurb p {
+        width: 100%;
+    }
+    
+    .sitelinks {
+        grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    
+    #wrapper {
+        width: 100%;
+    }
+    
+    #stars {
+        display: none;
+    }
+    
+    #list {
+        font-size: 1.5em;
+    }
+    
+    .sites {
+        display: block;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    
+    .sites img {
+        grid-template-columns: 100%;
+        text-align: center;
+        width: 100%;
     }
     
     body {
