@@ -141,6 +141,11 @@ a:visited:hover {
     
     .sites {
         display: block;
+        grid-template-columns: 100%;
+    }
+    
+    .sites img {
+        grid-template-columns: 100%;
     }
     
     body {
